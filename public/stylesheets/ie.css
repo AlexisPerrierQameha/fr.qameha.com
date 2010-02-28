@@ -1,0 +1,49 @@
+body *{
+	behavior: url(/stylesheets/iepngfix.htc);
+}
+#promo{
+	
+}
+.fr #promo{
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/fr/banner_promo.png');
+	z-index: 1;
+}
+#promo a{
+	z-index: 1000000;
+}
+#testimonials p #closeQuote{
+	margin-right: 20px;
+}
+#promo{
+	background:url("/images/banner_promo_ie.png");
+}
+#bottomLoop{
+	display: none;
+}
+.modulePage #testimonials{
+}
+.modulePage #testimonials p {
+}
+.modulePage #testimonials #bottom{
+	margin-top: 25px;
+	border: 1px solid red;
+}
+
+#subZone #evaluationLogo{
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/evaluation_logo.png') !important;
+}
+strong img{
+	_left: -25px;
+}
+.halfZone{
+	width: 380px;
+}
+#subZone #mobilityLogo{
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/mobility_logo.png') !important;
+}
+.moduleBlock{
+	_width: 180px !important;
+}
+#newsAndTwitter #twitter{
+  background: url("/images/twitter.jpg") no-repeat 10px 95px;
+}

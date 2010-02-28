@@ -1,0 +1,183 @@
+Simple Secure Smart
+
+The organic supply chain of your recruitment process !
+From the job definition to the integration of the candidate.
+Set up a team, track and select candidates, interview, assess and Integrate.
+
+Simple : It's a constant struggle to simplify. We want Qameha to be so obvious and natural to use that you will wonder how you managed to recruit anyone without it. 
+It's web based which means, no IT, no upgrades, no installation.
+
+Smart: At the core we are an HR company. Just check our team members. Qameha's workflow gives you the know how of experienced HR professionnals. 
+
+Secure: Your data is confidential and YOU OWN IT. We use the best hosting solutions and security measures for all accounts. You remain in control of all your data all the time.
+
+Recruiting page
+
+Qameha boosts team work, handles repetitive tasks. Time is saved, Quality is improved at each step of the process. 
+
+Each job opening is setup as a mission with clearly defined roles: a mission owner, a manager and interviewers.
+
+Alerts and stats help you quickly identify risks: candidate sourcing quality and volume, pace of the recruiting process, ....
+
+Know where your candidates come from
+
+There is no waste of time. The workflow rolls on. The next step is always suggested.
+
+The interface is designed to let filter high volumes of applications easily.
+
+You build your own candidate base and become less dependant on job boards
+
+Mission team members from third party companies have a restricted need-to-know only access to the candidates and job openings. 
+
+Qameha is so simple to use that you do not need to train your employees. If they are on Facebook or twitter, they'll know what to do straight away.
+
+
+
+Your IT department involvment is not required.
+
+You can access your candidates from any location at any time with a simple internet connection. It works on your mobile phone.
+
+There are no upgrades, no installation., no maintenance.
+
+Your data is backed up everyday on remote location servers
+
+You can back up your data anytime with a simple click.
+
+Our servers are based in Europe.
+
+All accounts have a secure SSH connection.
+
+All accounts have a 30 days free trial period.
+
+
+
+
+
+Team Work
+
+Workflow
+
+Project based
+
+  quote_0: Qameha enables us to manage all our recruitments in a multi site environment. It gived each actor the info required for his level of implication.
+  
+
+  quote_1: Qameha is easy to use. It simplifies, tags and secures the recruitment process.
+  
+  quote_2: Qameha is one of the best recruiting tools I have seen. It's simple and complete
+  
+  client_0: "Philippe Boudard,<br /> HR Groupe Hubert"
+  client_1: "Didier Etheve,<br /> HR Institut de Soudure"
+  client_2: "Pierre Coquillat,<br /> HR Amadeus"
+
+
+
+
+
+
+  website_title: "Recruitment and Performance Reviews Qameha"
+  qameha_baseline: "Qameha &nbsp; | &nbsp; Recruitment &nbsp; Performance Reviews"
+
+  # NAVIGATION
+  contact: "Contact"
+  team: "Team"
+  join: "Join-us"
+  blog: "Blog"
+  recruiting: "Recruitment"
+  evaluation: "Performance Reviews"
+  mobility: ""
+  contact_us_to_know_more: "Contact-us"
+
+  # INDEX
+  # Modules
+  recruiting_speech: Handles the recruitment process from the job definition to the integration of the candidate. Qameha boosts team work, handles repetitive tasks. Time is saved, Quality is improved at each step of the process
+  
+  recruiting_bullet_1: "Structure"
+  recruiting_bullet_2: "Rythm"
+  recruiting_bullet_3: "Drive"
+  evaluation_bullet_1: "Simplify"
+  evaluation_bullet_2: "Streamline"
+  evaluation_bullet_3: "Access policy"
+  mobility_bullet_1: "TODO_FR Fid&eacute;lise"
+  mobility_bullet_2: "TODO_FR Capitalise"
+  mobility_bullet_3: "TODO_FR Fluidifie"
+  learn_more: "More"
+
+
+
+  # Actu
+  loading_tweet: "Latest tweet"
+  news: "News"
+  news_main: Meet us at the Salon des&nbsp;Solutions Ressources&nbsp;Humaines
+  news_minor: "Porte de Versailles, March 9 to 11 du 9 2010 - Stand E25"
+
+  # JOBS
+  join_us: "We're hiring"
+  jobs_introduction: We are looking for talented people.
+
+  technical_content: "Technical skills"
+
+  # CONTACT US
+  contact_us: "Contact us"
+  contact_for: "Vous souhaitez en apprendre plus sur Qameha&nbsp;?<br /> Vous souhaitez une d&eacute;monstration&nbsp;? "
+  phone: "T&eacute;l&eacute;phone"
+  email: "Email"
+  where_we_are: "Our French office are situated at<br /> 9 rue Dareau 75014 Paris."
+  team_page: "Team page"
+  contact_the_team facebook_link twitter_link: "Vous pouvez &eacute;galement rejoindre notre <a href='{{facebook_link}}' target='_blank'>groupe Facebook</a> ou nous suivre sur <a href='{{twitter_link}}' target='_blank'>twitter</a>."
+
+  # MODULES
+  saas_assets_intro: Enjoy the numerous advantages of an Internet based application
+
+  saas_asset_1: "<ul><li>Les donn&eacute;es sont crypt&eacute;es</li><li>Les sauvegardes sont quotidiennes, r&eacute;alis&eacute;es sur des serveurs distincts</li><li>Les serveurs sont bas&eacute;s en Europe (respect des obligations CNIL)</li></ul>"
+  saas_asset_2: "<ul><li>Les donn&eacute;es vous appartiennent et peuvent &ecirc;tre extraites en un seul clic</li><li>Le mode Saas vous autorise un acc&egrave;s partout où vous disposez d'une connexion internet</li><li>Le nombre d'utilisateur n'est pas limit&eacute;</li></ul>"
+  saas_asset_3: "<ul><li>Pas de logiciel, pas d'installation, pas de formation n&eacute;cessaire</li><li>L'ergonomie reconnue de Qameha offre une grande facilit&eacute; d'utilisation</li><li>Les 'infos bulles' guident l'utilisateur lors de ses premiers pas</li></ul>"
+  
+  saas_asset_title_1: "S&eacute;curit&eacute;"
+  saas_asset_title_2: "Souplesse"
+  saas_asset_title_3: "Simplicity"
+  # Recruiting
+  recruiting_introduction: "Impliquez vous op&eacute;rationnels sans restriction tout en contrôlant les droits d'acc&egrave;s, automatisez les relances, gagnez du temps et qualit&eacute; à chaque &eacute;tape, pilotez chaque mission et gagnez en visibilit&eacute; sur l'ensemble des recrutements."
+  recruiting_assetsblock_intro: "Un outil r&eacute;alis&eacute; par des professionels du recrutement"
+  recruiting_asset1_content: "<ul><li>Chaque recrutement est structur&eacute; en projet,</li><li> Les risques de non recrutement sont identifi&eacute;s rapidement grâce aux outils de pilotage et alertes.</li><li>L'information est partag&eacute;e en temps r&eacute;el</li></ul>"
+  recruiting_asset2_content: "<ul><li>L'enregistrement des cv entrants est automatique, </li><li>La s&eacute;lection des candidats est simplifi&eacute;e grâce à une lecture facile à l'&eacute;cran,</li><li>Le rythme des actions est soutenu par la suggestion automatique de la prochaine &eacute;tape au bon interlocuteur</li></ul>"
+  recruiting_asset3_content:  "<ul><li>Les r&eacute;ponses aux candidats sont automatiques ou sugg&eacute;r&eacute;es. </li><li>Le comit&eacute; de direction dispose d'outils d'analyse et de synth&egrave;ses.</li><li>La consistution d'une base de donn&eacute;es permet de ne plus d&eacute;pendre uniquement des jobboards</li></ul>"
+  recruiting_quote: "Qameha est une solution compl&egrave;te de gestion des recrutements conçue et r&eacute;alis&eacute;e par des op&eacute;rationnels des Ressources Humaines."
+  client_recruiting: "Groupe Hubert"
+  recruiting_title: "Recruitment"
+  recruiting_header: "Qameha Recrutement g&egrave;re le recrutement depuis la d&eacute;finition de poste jusqu'à l'int&eacute;gration du candidat. <br />Avec le module Qameha recrutement, mettez un consultant dans vos process ! Recrutez mieux, plus vite, en &eacute;conomisant du temps."
+  # Evaluation
+  evaluation_introduction: "Simplifiez les campagnes d’&eacute;valuations, g&eacute;n&eacute;rez des statistiques sur le nombre de salari&eacute;s &eacute;valu&eacute;s par site et cat&eacute;gorie de population, identifiez vos « best 10 % », diffusez partout la culture du management par les objectifs en &eacute;valuant plus souvent vos collaborateurs, garantissez l’acc&egrave;s des &eacute;valuations aux seules personnes concern&eacute;es."
+  evaluation_assetsblock_intro: "Un outil r&eacute;alis&eacute; par des professionels des ressources humaines"
+  evaluation_asset1_content: "<ul><li>Vos campagnes en trois &eacute;tapes : Validation des compositions d’&eacute;quipe par les managers</li><li>Envoi à chaque collaborateur du formulaire d’&eacute;valuation correspondant à sa cat&eacute;gorie,</li><li>Auto-&eacute;valuation puis &eacute;valuation par le manager / les managers projets</li></ul>"
+  evaluation_asset2_content: "<ul><li>Automatisation des relances des op&eacute;rationnels,</li><li>Rappel des objectifs à atteindre et des r&eacute;sultats obtenus</li><li>G&eacute;n&eacute;ration de statistiques</li></ul>"
+  evaluation_asset3_content: "<ul><li>Archivage s&eacute;curis&eacute; et garanti des &eacute;valuations,</li><li>Gestion des droits d’acc&egrave;s aux documents</li><li>Signature &eacute;lectronique par le manager et le collaborateur</li></ul>"
+  evaluation_quote: "Qameha est une solution compl&egrave;te de gestion des recrutements conçue et r&eacute;alis&eacute;e par des op&eacute;rationnels des Ressources Humaines."
+  client_evaluation: "Groupe Hubert"
+  evaluation_title: "Evaluation"
+  evaluation_header: "Qameha Evaluation g&egrave;re les campagnes d’&eacute;valuations de vos collaborateurs sur l’ensemble de vos sites.  Avec le module Qameha Evaluation, transformez une obligation r&eacute;glementaire en outil de management par l’objectif ! Evaluez tous vos collaborateurs, plus vite, en &eacute;conomisant du temps."
+  # Mobility
+  mobility_placeholder_text_0: "Coupl&eacute; au module « &eacute;valuation » et au moteur de recherche de notre module recrutement, le module mobilit&eacute; permet fluidit&eacute; de l'information entre des souhaits d'&eacute;volutions des salari&eacute;s et les besoins actuels ou futurs des diff&eacute;rents services de l'entreprise."
+  mobility_placeholder_text_1: "<strong>Ce module est en cours de d&eacute;veloppement.</strong>"
+  mobility_placeholder_text_2: "N'h&eacute;sitez pas à nous contacter si vous souhaitez faire partie d'un club de clients partenaires : certains clients nous soutiennent avant la livraison de la version commercialis&eacute;e du module et b&eacute;n&eacute;ficient de d&eacute;veloppements sp&eacute;cifiques à leurs besoins."
+  mobility_quote: "Qameha est une solution compl&egrave;te de gestion des recrutements conçue et r&eacute;alis&eacute;e par des op&eacute;rationnels des Ressources Humaines."
+  client_mobility: "Groupe Hubert"
+  mobility_title: "Mobilit&eacute;"
+  mobility_header: "Mobilit&eacute; interne : un outil simple pour faire le lien entre les aspirations individuelles et les besoins de comp&eacute;tences<br /><br />"
+  # Recruiting Agencies
+  recruiting_agency_header: "G&eacute;rez vos recrutements mission par mission, supervisez les missions de vos consultants grâce à des indicateurs de pilotage visuels et personnalisables. <br />Interfacez-vous avec vos clients sans limitation de mani&egrave;re à suivre en m&ecirc;me temps qu’eux la progression des entretiens et les sensibiliser à la gestion du temps."
+  recruiting_agency_assetsblock_intro: "Un outil r&eacute;alis&eacute; par des professionels du recrutement"
+  recruiting_agency_asset1_content: "<ul><li>Les cv entrants sont enregistr&eacute;s automatiquement et affect&eacute;s à la mission,</li><li>Un outil de recherche dans la base de donn&eacute;es performant (codes et recherche texte),</li><li>L’information est partag&eacute;e en temps r&eacute;el avec le client</li></ul>"
+  recruiting_agency_asset2_content: "<ul><li>La s&eacute;lection des candidats est simplifi&eacute;e grâce à une lecture facile à l’&eacute;cran,</li><li>La base de donn&eacute;es est remplie en mode de saisie assist&eacute;e,</li><li>L’historique des candidats et les &eacute;valuations sont accessibles rapidement</li></ul>"
+  recruiting_agency_asset3_content: "<ul><li>Les r&eacute;ponses aux candidats sont automatiques ou sugg&eacute;r&eacute;es selon les cas,</li><li>Le management  dispose d’outils d’analyse, d’alertes et de synth&egrave;ses,</li><li>L’efficacit&eacute; des supports (jobboards, &eacute;coles…) est mise en &eacute;vidence</li></ul>"
+  recruiting_agency_quote: "Qameha est une solution compl&egrave;te de gestion des recrutements conçue et r&eacute;alis&eacute;e par des op&eacute;rationnels des Ressources Humaines."
+  client_recruiting_agency: "Groupe Hubert"
+  recruiting_agency_title: "Recrutement"
+  recruiting_agency_introduction: "Qameha pour les cabinets de recrutement est <b>Gratuit jusqu'à 2 utilisateurs</b>."
+
+  blog header index title: "Le blog de Qameha"
+  blog header index intro text: "Infos, actualités, nouvelles fonctionnalités"
+  next post: "Article suivant"
+  previous post: "Article précédent"
+  blog header new title: "Ajouter un article"
+  blog header new intro text: "L'article n'apparaîtra en ligne qu'après validation."

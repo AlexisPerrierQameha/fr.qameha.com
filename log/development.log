@@ -1,0 +1,7 @@
+# Logfile created on Sat Jan 23 06:53:22 +0000 2010
+
+Processing WebsiteController#index (for 127.0.0.1 at 2010-02-28 15:15:07) [GET]
+Rendering template within layouts/website
+Rendering website/index
+Rendered website/_header_index (2.1ms)
+Completed in 79ms (View: 71, DB: 0) | 200 OK [http://localhost/]
