@@ -6,12 +6,21 @@ class ApplicationController < ActionController::Base
   protect_from_forgery # See ActionController::RequestForgeryProtection for details
 
   before_filter :set_user_language
-
+  before_filter :right_site
 
   def set_user_language
     session[:lang] =  params[:lang]              if params[:lang]
     session[:lang] ||=  client_browser_language
     @select_langages = select_langages
+  end
+
+  def right_site
+    if client_browser_language == "fr" and !request.subdomains.include("fr")
+      @right_site = "redirecting to fr.qameha.com"
+    end
+    if client_browser_language == "en" and request.subdomains.include("fr")
+      @right_site = "redirecting to qameha.com"
+    end
   end
 
   private

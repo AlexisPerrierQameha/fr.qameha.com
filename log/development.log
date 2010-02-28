@@ -73,3 +73,22 @@ Processing WebsiteController#change_lang (for 127.0.0.1 at 2010-02-28 16:20:21) 
   Parameters: {"lang"=>"en"}
 Redirected to http://qameha.com?lang=en
 Completed in 8ms (DB: 0) | 302 Found [http://localhost/lang?lang=en]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsiteController#recruiting (for 127.0.0.1 at 2010-02-28 16:25:19) [GET]
+Rendering template within layouts/website
+Rendering website/recruiting
+Rendered website/_saas_assets (4.1ms)
+Rendered website/_header_recruiting (2.0ms)
+Rendered website/_select_languages (1.7ms)
+Completed in 119ms (View: 109, DB: 0) | 200 OK [http://localhost/recruiting]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsiteController#change_lang (for 127.0.0.1 at 2010-02-28 16:26:35) [GET]
+  Parameters: {"lang"=>"fr"}
+Redirected to http://fr.qameha.com?lang=fr
+Completed in 8ms (DB: 0) | 302 Found [http://localhost/lang?lang=fr]

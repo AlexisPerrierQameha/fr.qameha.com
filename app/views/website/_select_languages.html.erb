@@ -2,4 +2,13 @@
   <form action="/lang" method="get" name="select_langage">
     <%= select_tag "lang", @select_langages, :onchange => "javascript:this.form.submit();" %>
   </form>
+
+  <p>request.subdomains.inspect
+    <%= request.subdomains.inspect %>
+  </p>
+
+  <p>@right_site : 
+    <%= @right_site  %>
+  </p>
+
 </div>
