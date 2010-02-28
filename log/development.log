@@ -5,3 +5,71 @@ Rendering template within layouts/website
 Rendering website/index
 Rendered website/_header_index (2.1ms)
 Completed in 79ms (View: 71, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsiteController#index (for 127.0.0.1 at 2010-02-28 16:18:32) [GET]
+Rendering template within layouts/website
+Rendering website/index
+Rendered website/_header_index (1.5ms)
+Completed in 123ms (View: 115, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsiteController#index (for 127.0.0.1 at 2010-02-28 16:19:13) [GET]
+Rendering template within layouts/website
+Rendering website/index
+Rendered website/_header_index (0.7ms)
+Rendered website/_select_languages (1.5ms)
+Completed in 67ms (View: 59, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-28 16:19:17) [GET]
+  Parameters: {"lang"=>"en"}
+
+ActionController::RoutingError (No route matches "/lang" with {:method=>:get}):
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsiteController#index (for 127.0.0.1 at 2010-02-28 16:20:13) [GET]
+Rendering template within layouts/website
+Rendering website/index
+Rendered website/_header_index (0.7ms)
+Rendered website/_select_languages (0.8ms)
+Completed in 46ms (View: 38, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsiteController#recruiting (for 127.0.0.1 at 2010-02-28 16:20:16) [GET]
+Rendering template within layouts/website
+Rendering website/recruiting
+Rendered website/_saas_assets (3.9ms)
+Rendered website/_header_recruiting (2.1ms)
+Rendered website/_select_languages (0.7ms)
+Completed in 136ms (View: 128, DB: 0) | 200 OK [http://localhost/recruiting]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsiteController#change_lang (for 127.0.0.1 at 2010-02-28 16:20:21) [GET]
+  Parameters: {"lang"=>"en"}
+Redirected to http://qameha.com?lang=en
+Completed in 8ms (DB: 0) | 302 Found [http://localhost/lang?lang=en]
