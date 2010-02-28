@@ -5,11 +5,23 @@ class ApplicationController < ActionController::Base
   helper :all # include all helpers, all the time
   protect_from_forgery # See ActionController::RequestForgeryProtection for details
 
+  before_filter :reset_session
   before_filter :set_user_language
   before_filter :right_site
 
+  def reset_session
+    
+    if params[:reset_session]
+      session[:lang] = nil
+      session[:forced_lang] = nil
+    end
+  end
+
   def set_user_language
-    session[:lang] =  params[:lang]              if params[:lang]
+    if params[:lang]
+      session[:lang] =  params[:lang]
+      session[:forced_lang] = params[:lang]
+    end
     session[:lang] ||=  client_browser_language
     @select_langages = select_langages
   end
@@ -18,14 +30,18 @@ class ApplicationController < ActionController::Base
     logger.info(" client_browser_language #{client_browser_language}")
     logger.info(" request.subdomains. #{request.subdomains.inspect}")
     logger.info("request.env['HTTP_ACCEPT_LANGUAGE'] #{request.env['HTTP_ACCEPT_LANGUAGE'].inspect}")
-    if client_browser_language == "fr" and !request.subdomains.include?("fr")
-      logger.info "redirecting to fr.qameha.com"
-      redirect_to "http://fr.qameha.com/?lang=fr"
-    end
+    logger.info("session[:forced_lang]nil? #{session[:forced_lang].nil?}")
 
-    if client_browser_language == "en" and request.subdomains.include?("fr")
-      logger.info "redirecting to qameha.com"
-      redirect_to "http://qameha.com/?lang=en"
+    if session[:forced_lang].nil?
+      if client_browser_language == "fr" and !request.subdomains.include?("fr")
+        logger.info "redirecting to fr.qameha.com"
+        redirect_to "http://fr.qameha.com/?lang=fr"
+      end
+
+      if client_browser_language == "en" and request.subdomains.include?("fr")
+        logger.info "redirecting to qameha.com"
+        redirect_to "http://qameha.com/?lang=en"
+      end
     end
   end
 

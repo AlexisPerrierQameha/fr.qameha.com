@@ -92,3 +92,71 @@ Processing WebsiteController#change_lang (for 127.0.0.1 at 2010-02-28 16:26:35) 
   Parameters: {"lang"=>"fr"}
 Redirected to http://fr.qameha.com?lang=fr
 Completed in 8ms (DB: 0) | 302 Found [http://localhost/lang?lang=fr]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsiteController#index (for 127.0.0.1 at 2010-02-28 17:10:16) [GET]
+ client_browser_language fr
+ request.subdomains. []
+request.env['HTTP_ACCEPT_LANGUAGE'] "en-us,en;q=0.7,fr;q=0.3"
+session[:forced_lang]nil? true
+redirecting to fr.qameha.com
+Redirected to http://fr.qameha.com/?lang=fr
+Filter chain halted as [:right_site] rendered_or_redirected.
+Completed in 2ms (DB: 0) | 302 Found [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsiteController#index (for 127.0.0.1 at 2010-02-28 17:10:31) [GET]
+ client_browser_language fr
+ request.subdomains. []
+request.env['HTTP_ACCEPT_LANGUAGE'] "en-us,en;q=0.7,fr;q=0.3"
+session[:forced_lang]nil? true
+redirecting to fr.qameha.com
+Redirected to http://fr.qameha.com/?lang=fr
+Filter chain halted as [:right_site] rendered_or_redirected.
+Completed in 2ms (DB: 0) | 302 Found [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WebsiteController#index (for 127.0.0.1 at 2010-02-28 17:11:09) [GET]
+  Parameters: {"lang"=>"fr"}
+ client_browser_language fr
+ request.subdomains. []
+request.env['HTTP_ACCEPT_LANGUAGE'] "en-us,en;q=0.7,fr;q=0.3"
+session[:forced_lang]nil? false
+Rendering template within layouts/website
+Rendering website/index
+Rendered website/_header_index (1.5ms)
+Rendered shared/_select_languages (1.5ms)
+Completed in 88ms (View: 79, DB: 0) | 200 OK [http://localhost/?lang=fr]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BlogController#index (for 127.0.0.1 at 2010-02-28 17:11:13) [GET]
+ client_browser_language fr
+ request.subdomains. []
+request.env['HTTP_ACCEPT_LANGUAGE'] "en-us,en;q=0.7,fr;q=0.3"
+session[:forced_lang]nil? false
+  [4;36;1mBlog Load (0.0ms)[0m   [0;1mMysql::Error: Table 'qameha_sandbox.blogs' doesn't exist: SELECT * FROM `blogs` WHERE (status = 'published') ORDER BY published_at desc[0m
+
+ActiveRecord::StatementInvalid (Mysql::Error: Table 'qameha_sandbox.blogs' doesn't exist: SELECT * FROM `blogs` WHERE (status = 'published')  ORDER BY published_at desc):
+  app/controllers/blog_controller.rb:14:in `index'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (76.6ms)
+Rendered rescues/_request_and_response (2.7ms)
+Rendering rescues/layout (internal_server_error)
