@@ -20,12 +20,12 @@ class ApplicationController < ActionController::Base
     logger.info("request.env['HTTP_ACCEPT_LANGUAGE'] #{request.env['HTTP_ACCEPT_LANGUAGE'].inspect}")
     if client_browser_language == "fr" and !request.subdomains.include?("fr")
       logger.info "redirecting to fr.qameha.com"
-      redirect_to "http://fr.qameha.com/lang=fr"
+      redirect_to "http://fr.qameha.com/?lang=fr"
     end
 
     if client_browser_language == "en" and request.subdomains.include?("fr")
       logger.info "redirecting to qameha.com"
-      redirect_to "http://qameha.com/lang=en"
+      redirect_to "http://qameha.com/?lang=en"
     end
   end
 
