@@ -15,11 +15,17 @@ class ApplicationController < ActionController::Base
   end
 
   def right_site
-    if client_browser_language == "fr" and !request.subdomains.include("fr")
-      @right_site = "redirecting to fr.qameha.com"
+    logger.info(" client_browser_language #{client_browser_language}")
+    logger.info(" request.subdomains. #{request.subdomains.inspect}")
+    logger.info("request.env['HTTP_ACCEPT_LANGUAGE'] #{request.env['HTTP_ACCEPT_LANGUAGE'].inspect}")
+    if client_browser_language == "fr" and !request.subdomains.include?("fr")
+      logger.info "redirecting to fr.qameha.com"
+      redirect_to "http://fr.qameha.com/lang=fr"
     end
-    if client_browser_language == "en" and request.subdomains.include("fr")
-      @right_site = "redirecting to qameha.com"
+
+    if client_browser_language == "en" and request.subdomains.include?("fr")
+      logger.info "redirecting to qameha.com"
+      redirect_to "http://qameha.com/lang=en"
     end
   end
 
